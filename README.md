@@ -10,3 +10,10 @@ __Metadata & Links:__
 - `<title>` : Sets the webpage title
 - `<link>` : Links an external CSS file 
 
+**Header & Navigation:**  
+- `<header>` : Defines the header section  
+- `<nav>` : Represents navigation links  
+- `<div>` : A container element (used for the logo)  
+- `<ul>` : Defines an unordered list (for navigation links)  
+- `<li>` : Represents a list item (for menu options)  
+- `<a>` : Defines hyperlinks  
