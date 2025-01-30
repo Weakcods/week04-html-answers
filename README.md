@@ -23,3 +23,7 @@ __Content Sections:__
 - `<h2>` : Defines secondary headings
 - `<p>` : Represents paragraphs of text
 - `<a>` (inside hero section) : A call-to-action button
+
+__Footer:__
+- `<footer>` : Defines the footer section
+- `<p>` : Copyright information
