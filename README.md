@@ -17,6 +17,7 @@ __Metadata & Links:__
 - `<ul>` : Defines an unordered list (for navigation links)  
 - `<li>` : Represents a list item (for menu options)  
 - `<a>` : Defines hyperlinks  
+
 __Content Sections:__
 - `<section>` : Defines sections of the webpage
 - `<h1>` : Defines the main heading
