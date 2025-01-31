@@ -49,6 +49,20 @@ p {
     transition: transform 0.3s ease;
 }
 
+.overview {
+    font-size: 1.1rem;
+    color: #cccccc;
+}
+.content {
+    padding-top: 1rem;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
 /* Adding some responsiveness */
 @media (max-width: 768px) {
     header h1 {
