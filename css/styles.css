@@ -2,12 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
+    background-color: #1a1a1a;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -33,6 +33,20 @@ header .overview {
     line-height: 1.8;
     letter-spacing: 1px;
     padding: 10px 20px;
+}
+
+p {
+    margin-bottom: 1rem;
+    font-weight: 300;
+}
+
+.movie {
+    background: #2a2a2a;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
 }
 
 /* Adding some responsiveness */
