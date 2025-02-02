@@ -1,5 +1,8 @@
 # Week 4 Activity
-## 1. Identify the different tags used in cozycup-boilerplate.
+
+## Activity 1:
+
+### Question: 1. Identify the different tags used in cozycup-boilerplate.
 __Structural Tags:__  
 - `<html>` : Defines the root of the document  
 - `<head>` : Contains meta information and links  
@@ -28,3 +31,5 @@ __Content Sections:__
 __Footer:__
 - `<footer>` : Defines the footer section
 - `<p>` : Copyright information
+
+### Click the Link to direct to [Question 2: at the html_intro_answers.html](html_intro_answers.html#question-2).
