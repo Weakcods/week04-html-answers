@@ -56,3 +56,6 @@ button[type="submit"] {
     width: 100%;
     margin-top: 10px;
 }
+button[type="submit"]:hover {
+    background-color: #20c338; 
+}
