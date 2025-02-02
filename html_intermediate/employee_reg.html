@@ -7,5 +7,42 @@
 </head>
 <body>
     
+    <h2>Employee Registration</h2>
+    <div class="container">
+        <h1>Employee Registration</h1>
+        <form action="#" method="post" id="registration-form">
+            <div class="form-group">
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" required>
+            </div>
+            <div class="form-group">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" required>
+            </div>
+            <div class="form-group">
+                <label for="middle_name">Middle Name:</label>
+                <input type="text" id="middle_name">
+            </div>
+            <div class="form-group">
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" required>
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label>
+                <select id="department" required>
+                    <option value="hr">HR</option>
+                    <option value="finance">Finance</option>
+                    <option value="it">IT</option>
+                    <option value="sales">Sales</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="office">Office:</label>
+                <input type="text" id="office" required>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
 </body>
 </html>
