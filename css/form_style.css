@@ -12,6 +12,11 @@ body{
     padding: 20px;
 }
 
+h2{
+    text-align: center;
+    color: #24FE41;
+    margin-bottom: 20px;
+}
 .container{
     max-width: 500px;
     margin: 0 auto;
@@ -19,4 +24,12 @@ body{
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgb(0, 0, 0, 0.1);
+}
+
+label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+    color: #333;
 }
