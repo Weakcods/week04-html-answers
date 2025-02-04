@@ -1,5 +1,5 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, sans-serif;
     margin: 2rem;
     background-color: #f7f7f7;
 }
@@ -14,19 +14,98 @@ table {
     border-radius: 8px;
     overflow: hidden;
 }
+
 th, td {
     padding: 16px;
     text-align: left;
     border-bottom: 1px solid #eee;
 }
+
+th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f0f7f0;
+    transition: background-color 0.2s ease;
+}
+
+.price {
+    text-align: right;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    color: #2c5282;
+    width: 120px;
+}
+
 .category {
     color: #6b46c1;
     font-weight: 500;
 }
+
+.rating {
+    text-align: center;
+    color: #d97706;
+    font-weight: bold;
+}
+
+.stars {
+    color: gold;
+    letter-spacing: 2px;
+}
+
 .available {
     color: #38a169;
     font-weight: bold;
     display: flex;
     align-items: center;
     gap: 5px;
+}
+
+.available::before {
+    content: "●";
+    font-size: 10px;
+}
+
+.unavailable {
+    color: #e53e3e;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.unavailable::before {
+    content: "●";
+    font-size: 10px;
+}
+
+/* Column widths */
+th:first-child, td:first-child {
+    width: 25%;
+}
+
+th:nth-child(2), td:nth-child(2) {
+    width: 20%;
+}
+
+th:nth-child(3), td:nth-child(3) {
+    width: 15%;
+}
+
+th:nth-child(4), td:nth-child(4) {
+    width: 20%;
+}
+
+th:last-child, td:last-child {
+    width: 20%;
 }
