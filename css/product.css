@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Poppins', sans-serif;
     margin: 2rem;
     background-color: #f7f7f7;
 }
@@ -108,4 +108,24 @@ th:nth-child(4), td:nth-child(4) {
 
 th:last-child, td:last-child {
     width: 20%;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        margin: 1rem;
+    }
+    
+    th, td {
+        padding: 12px 8px;
+        font-size: 0.9rem;
+    }
+    
+    .price {
+        width: auto;
+    }
+
+    .stars {
+        letter-spacing: 1px;
+    }
 }
