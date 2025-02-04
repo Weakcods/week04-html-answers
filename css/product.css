@@ -19,3 +19,14 @@ th, td {
     text-align: left;
     border-bottom: 1px solid #eee;
 }
+.category {
+    color: #6b46c1;
+    font-weight: 500;
+}
+.available {
+    color: #38a169;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
